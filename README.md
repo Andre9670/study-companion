@@ -39,6 +39,16 @@ Then just talk to it: *"study me for the Spanish oposición"*, *"quiz me on X"*,
 *"prepare me for [exam] by [date]"*. The `tutor` agent runs the show; the skills
 (`study-plan`, `quiz`, `notebook`, `progress`) do the work.
 
+## No Claude Code? A portable "lite" version
+
+The full experience lives in Claude Code (persistent notebook, tested SM-2, packs,
+citations). For a quick try on **claude.ai** or **ChatGPT** with no install, there's a
+single self-contained prompt at [`portable/study-companion-lite.md`](./portable/study-companion-lite.md):
+paste it as Project / Custom GPT instructions (or just a first message) and it onboards
+you with a few questions, then quizzes you with a by-hand Leitner scheduler and a
+copy-paste *resume token* to continue next session. It trades away real cross-session
+memory and true SM-2 — see the file's "Honest limits".
+
 ## Pre-tuned resource packs (optional)
 
 The plugin is generic, but it can ship **resource packs** — a subject already tuned on a
