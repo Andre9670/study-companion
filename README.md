@@ -30,7 +30,7 @@ smarter about you every session.
 ## Install
 
 ```
-/plugin marketplace add <your-github-user>/study-companion
+/plugin marketplace add Andre9670/study-companion
 /plugin install study-companion@study-companion-marketplace
 /reload-plugins
 ```
