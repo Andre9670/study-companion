@@ -1,0 +1,11 @@
+{
+  "name": "study-companion-marketplace",
+  "owner": { "name": "Andrea Formato" },
+  "plugins": [
+    {
+      "name": "study-companion",
+      "source": "./plugins/study-companion",
+      "description": "Adaptive AI study tutor — active-recall quizzing, spaced repetition (SM-2), theory explanations, keyword associations, and a self-maintained learner notebook."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Never commit a user's personal study data / progress
+study/
+state/
+progress.json
+*.state.json
+learner-profile.md
+quiz-history.jsonl
+
+# Python
+__pycache__/
+*.pyc
+
+# Env / local
+.env
+*.local.*
+.DS_Store

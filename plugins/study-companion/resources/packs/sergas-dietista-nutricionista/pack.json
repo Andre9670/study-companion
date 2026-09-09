@@ -1,0 +1,12 @@
+{
+  "slug": "sergas-dietista-nutricionista",
+  "subject": "SERGAS — Dietista-Nutricionista (oposición, Galicia)",
+  "description": "Pre-tuned resource pack for the SERGAS Dietista-Nutricionista concurso-oposición (A2). Ships the exam plan + Anexo III structure, the FULL official temario verbatim (8 común + 46 específica, temario.md), the source policy, an ingested section index, and the Temas 35–36 láminas (psicología del comportamiento alimentario + TCA). NO pre-made quiz items — the tutor generates questions on demand (quiz skill): grounded on the láminas for T35/T36, open mode for the rest under the source policy.",
+  "temario": "temario.md (verbatim, DOG 245 19/12/2025)",
+  "items": "none pre-seeded — generated on demand by the tutor",
+  "language": "es",
+  "grounded": true,
+  "corpus_note": "corpus/laminas_t35_t36.md holds the verbatim text of the 7 láminas (transcribed from the original image-only PDF); grep + Read the cited 'Lámina N' section, no rendering needed. Grounded coverage = temas 35–36 only; all other temas use open mode per plan.md source policy.",
+  "seed_items": "items.seed.json",
+  "materialize_to": "${STUDY_HOME:-~/.claude/study-companion}/sergas-dietista-nutricionista"
+}

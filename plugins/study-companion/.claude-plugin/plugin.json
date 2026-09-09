@@ -1,0 +1,7 @@
+{
+  "name": "study-companion",
+  "description": "Adaptive study companion — an AI tutor that quizzes you with active recall, adapts to what you get wrong, explains the theory, builds keyword associations, and tracks mastery with spaced repetition. Works from your own material (grounded) or public knowledge.",
+  "version": "0.1.0",
+  "author": { "name": "Andrea Formato" },
+  "license": "MIT"
+}

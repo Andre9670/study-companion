@@ -1,0 +1,19 @@
+{
+  "items": {
+    "example-topic-fact-1": {
+      "id": "example-topic-fact-1",
+      "topic": "example-topic",
+      "bloom": "recall",
+      "question": "What is a worked-example question at the recall level?",
+      "answer": "A single atomic fact the learner retrieves from memory.",
+      "keywords": ["atomic", "retrieval"],
+      "EF": 2.5,
+      "interval": 0,
+      "reps": 0,
+      "due": null,
+      "last_grade": null,
+      "mastery": 0.0,
+      "reviews": 0
+    }
+  }
+}
